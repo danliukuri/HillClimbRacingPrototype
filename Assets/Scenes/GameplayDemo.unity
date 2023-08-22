@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -252,18 +253,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &903134821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1369292404748038883, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
-  m_PrefabInstance: {fileID: 7800589823682134084}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &903134826
+--- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903134821}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb6a6cb42ef46d0a6f93d223951e9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1317795558}
+  offset: {x: 5, y: 0, z: -10}
+--- !u!114 &903134826 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1559209347528102323, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
+  m_PrefabInstance: {fileID: 7800589823682134084}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67b57ca609b24466ac4681f63fc6efac, type: 3}
@@ -306,18 +315,12 @@ Transform:
   - {fileID: 922836819}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1233279713 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5094295315746026180, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
+--- !u!114 &1233279718 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6069800320271619234, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
   m_PrefabInstance: {fileID: 7800589823682134084}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1233279718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233279713}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67b57ca609b24466ac4681f63fc6efac, type: 3}
@@ -335,18 +338,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5373944823786868970, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6443649121788905192, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6443649121788905192, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-      propertyPath: m_Motor.m_MotorSpeed
-      value: -2000
-      objectReference: {fileID: 0}
+    - target: {fileID: 6174088967116241395, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+      propertyPath: accelerationButton
+      value: 
+      objectReference: {fileID: 1233279718}
+    - target: {fileID: 6174088967116241395, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+      propertyPath: decelerationButton
+      value: 
+      objectReference: {fileID: 903134826}
     - target: {fileID: 8453177496200840476, guid: 676e117971e94aa46b052976dda28e51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
@@ -390,64 +389,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3502941166817175121, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1317795559}
-    - targetCorrespondingSourceObject: {fileID: 8392811421467137135, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1345500660}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 676e117971e94aa46b052976dda28e51, type: 3}
---- !u!1 &1317795553 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3502941166817175121, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+--- !u!4 &1317795558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8453177496200840476, guid: 676e117971e94aa46b052976dda28e51, type: 3}
   m_PrefabInstance: {fileID: 1317795552}
   m_PrefabAsset: {fileID: 0}
---- !u!235 &1317795554 stripped
-WheelJoint2D:
-  m_CorrespondingSourceObject: {fileID: 5373944823786868970, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-  m_PrefabInstance: {fileID: 1317795552}
-  m_PrefabAsset: {fileID: 0}
---- !u!235 &1317795555 stripped
-WheelJoint2D:
-  m_CorrespondingSourceObject: {fileID: 6443649121788905192, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-  m_PrefabInstance: {fileID: 1317795552}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1317795559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317795553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d015e7ddb23a4668b4b86cc249aa1196, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carEngine: {fileID: 1345500660}
-  accelerationButton: {fileID: 1233279718}
-  decelerationButton: {fileID: 903134826}
---- !u!1 &1345500658 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8392811421467137135, guid: 676e117971e94aa46b052976dda28e51, type: 3}
-  m_PrefabInstance: {fileID: 1317795552}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1345500660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345500658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 622b719c2cda68040b392a5ab7e57f86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontWheelJoint: {fileID: 1317795555}
-  rearWheelJoint: {fileID: 1317795554}
-  accelerationSpeed: -2000
 --- !u!1 &1825126008
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +541,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2297150084383786302, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3915892586938300128, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -680,13 +632,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5094295315746026180, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1233279718}
-    - targetCorrespondingSourceObject: {fileID: 1369292404748038883, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 903134826}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99cfdcb2ffa35b4438b6f9cc0f467786, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
