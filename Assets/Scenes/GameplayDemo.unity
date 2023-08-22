@@ -307,8 +307,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3502941166817175121, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1317795559}
   m_SourcePrefab: {fileID: 100100000, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+--- !u!1 &1317795553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3502941166817175121, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+  m_PrefabInstance: {fileID: 1317795552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!235 &1317795554 stripped
+WheelJoint2D:
+  m_CorrespondingSourceObject: {fileID: 5373944823786868970, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+  m_PrefabInstance: {fileID: 1317795552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!235 &1317795555 stripped
+WheelJoint2D:
+  m_CorrespondingSourceObject: {fileID: 6443649121788905192, guid: 676e117971e94aa46b052976dda28e51, type: 3}
+  m_PrefabInstance: {fileID: 1317795552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317795559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317795553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622b719c2cda68040b392a5ab7e57f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontWheelJoint: {fileID: 1317795555}
+  rearWheelJoint: {fileID: 1317795554}
+  speed: 2000
 --- !u!1001 &4003797447638346947
 PrefabInstance:
   m_ObjectHideFlags: 0
