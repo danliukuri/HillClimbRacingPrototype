@@ -15,6 +15,8 @@ namespace HillClimbRacingPrototype.Player
             if (accelerationButton.IsPressed)
                 carEngine.Accelerate();
             else if (decelerationButton.IsPressed)
+                carEngine.Brake();
+            else
                 carEngine.Decelerate();
         }
     }
