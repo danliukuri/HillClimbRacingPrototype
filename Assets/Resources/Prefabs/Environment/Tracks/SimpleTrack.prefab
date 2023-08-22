@@ -529,7 +529,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 7277437136005765942}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4e7f2714b6bb75e4587d59dfd6d27ffd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
