@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8727168070594897525}
   - component: {fileID: 4004706716901715688}
   - component: {fileID: 1912327244553465173}
+  - component: {fileID: 1559209347528102323}
   m_Layer: 0
   m_Name: BrakeButton
   m_TagString: Untagged
@@ -120,6 +121,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1559209347528102323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369292404748038883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b57ca609b24466ac4681f63fc6efac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5094295315746026180
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +145,7 @@ GameObject:
   - component: {fileID: 4264644089158510279}
   - component: {fileID: 7698937602086744188}
   - component: {fileID: 2004879118990391884}
+  - component: {fileID: 6069800320271619234}
   m_Layer: 0
   m_Name: GasButton
   m_TagString: Untagged
@@ -240,6 +254,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6069800320271619234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5094295315746026180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b57ca609b24466ac4681f63fc6efac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7521629783489766181
 GameObject:
   m_ObjectHideFlags: 0
